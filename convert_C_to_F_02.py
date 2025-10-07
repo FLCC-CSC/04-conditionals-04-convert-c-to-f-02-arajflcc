@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Anita Raj
+# DATE: 10/7/2025
+# BRIEF DESCRIPTION:  Convert Centigrade to Fahrenheit
 
 
 
@@ -13,7 +13,22 @@
 
 
 
+
 ########## ENTER YER CODE BELOW THIS LINE ##########
+
+print("===== Temperature Converter =====\n")
+print("  1. Convert from Celsius to Fahrenheit")
+print("  2. Convert from Fahrenheit to Celsius\n")
+
+choice = int(input("Please choose from the above menu: "))
+temperature = float(input("Enter a temperature to convert: "))
+
+if choice == 1:
+    answer = (temperature * 9/5) + 32
+    print(f"\n{temperature} degrees Celsius is {answer} degrees Fahrenheit.")
+elif choice == 2:
+    answer = (temperature - 32 ) * 5/9
+    print(f"\n{temperature} degrees Fahrenheit is {answer} degrees Celsius.")
 
 
 
@@ -92,6 +107,8 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
+
+I learnt 'if' and 'elif' can be coded without even having a 'else'
 
 
 
